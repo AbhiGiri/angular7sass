@@ -1,0 +1,32 @@
+
+$backColor: rgb(248, 4, 57);
+
+.search-button {
+    border-color: red;
+    color: blue;
+
+    &:hover, &:after, &:focus {
+        background-color: transparent;
+        color: $backColor;
+    }
+}
+.brand-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor;
+    }
+}
+
+.login-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor !important;
+    }
+}
+
+.register-custom {
+    &:hover, &:focus, &:active {
+        background-color: transparent;
+        color:$backColor !important;
+    }
+}
